@@ -4,7 +4,8 @@
  *
  * main= prints exact word
  *
- * Return= Always (0)
+ * Return: Always 0 (Success)
+ *
  */
 int main(void)
 {
