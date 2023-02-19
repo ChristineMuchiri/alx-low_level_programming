@@ -1,19 +1,22 @@
 #include <stdio.h>
+#include <limits.h>
+#include <stdlib.h>
+
 /**
- * main - Entry point
- *
- * Return: Always 0 (success)
- */
+  *main - printing alphabets in lowercase
+  *
+  *Return: always 0 (success)
+  */
+
 int main(void)
 {
-char c;
+	char alphabet;
 
-c = 'a';
-while
-(c <= 'z') {
-putchar(c);
-c++;
-}
-putchar('\n');
-return (0);
+	for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
+	{
+	putchar(alphabet);
+	}
+	putchar('\n');
+
+	return (0);
 }
