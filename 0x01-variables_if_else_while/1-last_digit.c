@@ -6,8 +6,9 @@
 /**
  * main - print if last digit is positive negative or 0
  *
- * Return : Always 0 (success)
+ * Return: Always 0 (success)
  */
+
 int main(void)
 {
 	int n;
