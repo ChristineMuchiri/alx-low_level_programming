@@ -1,14 +1,19 @@
 #include <stdio.h>
 /**
- * main - Entry point
- *
- * Return: Always 0 (Success)
- */
+  * main - entry
+  *
+  * Return: Always 0 (succes)
+  */
+
 int main(void)
 {
-int a;
-for (a = 0; a <= 9; a++)
-printf("%d", a);
-putchar ('\n');
-return (0);
+	int x;
+
+	for (x = 0; x < 10; x++)
+	{
+		printf("%d", x);
+	}
+	putchar('\n');
+
+	return (0);
 }
