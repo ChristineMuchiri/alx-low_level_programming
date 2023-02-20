@@ -1,17 +1,23 @@
 #include <stdio.h>
 /**
- * main - Entry
- *
- * Return: Always 0 (success)
- */
+  * main - printing tha alphabet
+  *
+  * Return: Always 0 (success)
+  */
 int main(void)
 {
-int ch;
-/**/
-for (ch = 'a'; ch <= 'z'; ch++)
-putchar(ch);
-for (ch = 'A'; ch <= 'Z'; ch++)
-putchar(ch);
-putchar('\n');
-return (0);
+	char lower_case;
+	char upper_case;
+
+	for (lower_case = 'a'; lower_case <= 'z'; lower_case++)
+	{
+		putchar(lower_case);
+	}
+	for (upper_case = 'A'; upper_case <= 'Z'; upper_case++)
+	{
+		putchar(upper_case);
+	}
+	putchar('\n');
+
+	return (0);
 }
