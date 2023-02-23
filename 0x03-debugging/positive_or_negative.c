@@ -1,23 +1,22 @@
 #include <stdio.h>
 /* more headers goes there */
 /**
-  * main - Entry
-  *
+  * positive_or_negative - checks if a number is positive or negative
+  * @i: integer to be checked
   * Return: Always 0 (success)
   */
 
 void positive_or_negative(int i)
 {
-	
 	if (i > 0)
 	{
 		printf("%d %s\n", i, "is positive");
 	}
-	if (i == 0)
+	else if (i == 0)
 	{
 		printf("%d %s\n", i,  "is zero");
 	}
-	if (i < 0)
+	else
 	{
 		printf("%d %s\n", i,  "is negative");
 	}
